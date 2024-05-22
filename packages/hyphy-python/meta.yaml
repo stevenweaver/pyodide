@@ -1,0 +1,22 @@
+package:
+  name: hyphy-python
+  version: 0.1.11
+  top-level:
+    - PUT_TOP_LEVEL_IMPORT_NAMES_HERE
+source:
+  url: https://files.pythonhosted.org/packages/e1/ff/2acf91d4c5220b366e8ef092cc260954c2db7d262e0c5bb3e60b2d6b0193/hyphy-python-0.1.11.tar.gz
+  sha256: 61e8c195387baea2f0dc4c0d0e33661ea840c5770a45c368ad740b9967630027
+  patches:
+    - patches/0001-remove-unnecessary-lib-flags.patch
+requirements:
+  host:
+    - openssl
+build:
+  cflags: |
+    -fPIC
+    -Wno-register
+about:
+  home: http://github.com/veg/hyphy
+  PyPI: https://pypi.org/project/hyphy-python
+  summary: HyPhy package interface library
+  license: ""
