@@ -1,0 +1,17 @@
+package:
+  name: hivclustering
+  version: 1.6.8
+  top-level:
+    - PUT_TOP_LEVEL_IMPORT_NAMES_HERE
+source:
+  url: https://files.pythonhosted.org/packages/ab/92/e6ec5e7e907d6857dfbe0f1e6e9a0676c9c8a9f55eac2afe35e0353797c2/hivclustering-1.6.8.tar.gz
+  sha256: 1229f6de662aac16ec3601b9cd542a96a765273860ba1cf27840d58eb5a70176
+build:
+  cflags: |
+    -fPIC
+    -Wno-register
+about:
+  home: http://github.com/veg/hivclustering
+  PyPI: https://pypi.org/project/hivclustering
+  summary: HIV molecular clustering tools
+  license: MIT License

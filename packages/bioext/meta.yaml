@@ -1,0 +1,13 @@
+package:
+  name: bioext
+  version: 0.21.4
+  top-level:
+    - PUT_TOP_LEVEL_IMPORT_NAMES_HERE
+source:
+  url: https://files.pythonhosted.org/packages/5f/1e/5562118232247923f8543ada556cf01368a5a9a175c2ebd3b503fd1cd98d/bioext-0.21.4.tar.gz
+  sha256: b580b1e578af656b1af0e7f0228f14bcf8184f88028e6fe48dde174f021a5c53
+about:
+  home: http://github.com/veg/bioext
+  PyPI: https://pypi.org/project/bioext
+  summary: Misc utilities and definitions not included or hidden in BioPython
+  license: GNU GPL version 3
